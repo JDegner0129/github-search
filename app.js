@@ -8,7 +8,7 @@ app.set('view engine', 'jade');
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', function (req, res) {
-	res.render('index', { title: 'GitHub Search' });
+    res.render('index', { title: 'GitHub Search' });
 });
 
 module.exports = app;
