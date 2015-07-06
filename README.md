@@ -7,5 +7,4 @@ If you insist on running it, though ...
     > git clone https://github.com/jdegner0129/github-search.git
     > cd github-search
     > npm install
-    > gulp
     > npm start
